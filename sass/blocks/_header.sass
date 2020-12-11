@@ -1,0 +1,72 @@
+.header
+	padding: 28px 0 32px 0
+	&-top
+		display: flex
+		justify-content: space-between
+		&-lang
+			display: flex
+			&__link
+				margin-right: 10px
+				color: #000000
+				font-family: Bebas
+				font-size: 14px
+				font-weight: 400
+				line-height: 18px
+				text-transform: uppercase
+				padding: 4px
+			.active
+				color: #ffffff
+				background: #000
+		&-order
+			color: #000000
+			font-family: Bebas
+			font-size: 15px
+			font-weight: 400
+			line-height: 25px
+			text-transform: uppercase
+			text-decoration: underline
+
+.header-bottom
+
+	display: flex
+	align-items: center
+	margin-top: -18px
+
+	&__column
+		display: flex
+		flex: 0 0 33.333%
+
+	&-menu-list
+		display: flex
+		flex-wrap: wrap
+		li
+			margin-right: 45px
+			color: #000000
+			font-size: 14px
+			font-weight: 700
+			letter-spacing: 1px
+			text-transform: uppercase
+			&:last-child
+				margin: 0
+	&-menu--right
+		margin-left: auto
+		.header-bottom-menu-list
+			li
+				margin: 0 0 0 45px
+				&:first-child
+					margin: 0
+.header-logo
+	margin: 0 auto
+	text-decoration: none
+	&__text
+		display: block
+		text-align: center
+		color: #000000
+		font-family: Bebas
+		font-size: 10px
+		text-transform: uppercase
+		letter-spacing: 8px
+	&__img
+		display: inline-block
+		text-align: center
+		margin: 12px 0 22px 0
