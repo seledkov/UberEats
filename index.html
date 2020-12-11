@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>International Smart Place</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -250,15 +251,26 @@
 		<div class="form__column">
 			<div class="form__title">Get in touch</div>
 			<div class="form-body">
-				<input type="text" placeholder="Name" class="form-body__input">
-				<input type="text" placeholder="E-mail or phone number" class="form-body__input">
-				<textarea name="" id="" placeholder="Your message" class="form-body__textarea"></textarea>
-				<button class="form-body__btn btn btn--white">Send message</button>
+				<form action="https://echo.htmlacademy.ru/courses" method="GET" class="form-value">
+					<input type="text" autocomplete='off' name='name' placeholder="Name" class="form-body__input">
+					<input type="text" name='mail' placeholder="E-mail or phone number" class="form-body__input">
+					<textarea name="textarea" id="test" placeholder="Your message" class="form-body__textarea"></textarea>
+					<button class="form-body__btn btn btn--white" type="submit">Send message</button>
+				</form>
 			</div>
 		</div>
 	</section>
 	<footer class="footer">
-
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__terms">
+					© PrimeOne Catering 2014. <a href="#">Terms & Conditions</a>
+				</div>
+				<div class="footer__logo">
+					<img src="img/logo-footer.png" alt="logo">
+				</div>
+			</div>
+		</div>
 	</footer>
 	<script src="js/script.js"></script>
 </body>

@@ -18,13 +18,16 @@
 		letter-spacing: 2.5px
 .form-body
 	margin: 0 0 50px 60px
+	width: 375px
 	&__btn
 		display: block
 	&__input,
 	&__textarea
+		box-sizing: border-box
+		border-radius: 0 !important
 		margin-bottom: 25px
 		padding: 0 0 0 20px
-		width: 355px
+		width: 100%
 		height: 50px
 		border: 2px solid #959595
 		background-color: #252525
@@ -34,7 +37,8 @@
 		line-height: 25px
 		text-align: left
 		&:focus
-			background-color: #924444
+			outline: none
 	&__textarea
+		resize: none
 		height: 90px
 		padding-top: 10px
